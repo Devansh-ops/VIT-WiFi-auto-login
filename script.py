@@ -40,7 +40,8 @@ try:
 	#### to quit the browser ####
 	time.sleep(3)
 	browser.quit()
-	# time.sleep(1)
+    #### to kill the browser process ####
+    # time.sleep(1)
 	# browserExe = "Safari"
 	# os.system("pkill "+browserExe)
 except Exception:
@@ -49,3 +50,6 @@ except Exception:
 
 	#### to quit the browser uncomment the following lines ####
 	# browser.quit()
+    #### to kill the browser process ####
+	# browserExe = "Safari"
+	# os.system("pkill "+browserExe)
