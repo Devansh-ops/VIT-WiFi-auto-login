@@ -36,7 +36,6 @@ try:
 	password_element.send_keys(password)
 	signInButton = browser.find_element(by=By.NAME, value=element_for_submit)
 	signInButton.click()
-	
 	#### to quit the browser ####
 	time.sleep(3)
 	browser.quit()
@@ -49,7 +48,7 @@ except Exception:
 	print("Some error occured :(")
 
 	#### to quit the browser uncomment the following lines ####
-	# browser.quit()
+	browser.quit()
     #### to kill the browser process ####
 	# browserExe = "Safari"
 	# os.system("pkill "+browserExe)
